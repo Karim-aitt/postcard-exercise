@@ -1,0 +1,67 @@
+body {
+	background: black;
+	/* */
+}
+* {
+	/* border: 1px dashed red;
+	min-height: 10px; */
+	font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat Alternates", sans-serif;
+	font-size: 3;
+}
+
+.postcard {
+	background: white;
+	width: 430px;
+	height: 300px;
+	margin: auto;
+}
+/*--------------------------------------------------------------header--*/
+.postcard-header {
+	display: flex;
+}
+.imagen {
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+}
+.posth1 {
+	width: 500px;
+	font-weight: bold;
+	margin: 0 0 0 5px;
+	padding-top: 10px;
+	justify-content: center;
+}
+/*---------------------------------------------------------------body-*/
+.postcard-body {
+	display: flex;
+	font-size: medium;
+}
+p {
+	margin: 10px;
+	width: 230px;
+}
+.p1 {
+	margin-top: 5px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+	font-size: medium;
+	font-weight: 700;
+	width: 150px;
+	margin-left: 5px;
+	margin-top: 4px;
+}
+/*-------------------------------------------------------------footer---*/
+
+.postcard-footer {
+	text-align: center;
+}
+.btn {
+	background-color: silver;
+	padding: 5px;
+	margin-top: 10px;
+	font-size: large;
+}
